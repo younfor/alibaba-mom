@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d6534c2-ad6e-42ed-9acb-def31798998d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_asm_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-mom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-mom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/Broker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/ConsumeStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/ConsumeStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/DefaultProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/SendStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/SendStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/AccumulateHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/AccumulateHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/AccumulateHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/AccumulateHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/MessageStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/Recover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/Recover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SendInfoScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/StoreSucceedListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/StoreSucceedListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/StoreSucceedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/StoreSucceedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SubsStore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SubsStore$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SubsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/function/SubsStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ConsumerGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ProducerGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/broker/group/ProducerGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/JdkObjectSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/JdkObjectSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/KryoxSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/KryoxSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/RpcEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/serializer/RpcEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/ArrayStoreImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/ArrayStoreImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Comm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/DataMappedFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/DataMappedFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/FileStoreManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/IndexMappedFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/IndexMappedFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MappedFileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MappedFileInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MsgFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MsgFileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MsgStoreImp_MappedBuffer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/MsgStoreImp_MappedBuffer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Redo$RedoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Redo$RedoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Redo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/Redo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/RedoLog$LogBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/RedoLog$LogBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/RedoLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/RedoLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/SubscribeStoreImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/SubscribeStoreImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/SubscribeStoreImp_MappedBuffer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/SubscribeStoreImp_MappedBuffer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/redotest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/store/redotest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/util/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/util/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/util/InfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/classes/com/alibaba/middleware/race/mom/util/InfoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/AppTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lib/test-classes/com/alibaba/middleware/race/mom/test.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/lib/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Broker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Broker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>pa</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-35" />
+    <option name="y" value="38" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/alibaba/middleware/race/mom" type="cbb8eebc:String" user="com/alibaba/middleware/race/mom" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/alibaba/middleware/race/mom" type="cbb8eebc:String" user="com/alibaba/middleware/race/mom" />
+              <item name="Broker" type="cbb8eebc:String" user="Broker" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="middleware-mom" type="cbb8eebc:String" user="middleware-mom" />
+              <item name="alibaba-mom" type="cbb8eebc:String" user="alibaba-mom" />
+              <item name="target" type="cbb8eebc:String" user="target" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mom" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mom" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware-mom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba-mom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="H:/momtest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Broker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.middleware.race.mom.Broker" />
+      <module name="middleware-mom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.middleware.race.mom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Broker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d6534c2-ad6e-42ed-9acb-def31798998d" name="Default" comment="" />
+      <created>1522909238023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522909238023</updated>
+      <workItem from="1522909248220" duration="1677000" />
+      <workItem from="1522912421625" duration="2880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4557000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-28" y="31" width="1400" height="824" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35595778" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.266766" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/middleware/race/mom/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/middleware/race/mom/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/ReSendHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="209" column="73" selection-start-line="209" selection-start-column="73" selection-end-line="209" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/DefaultProducer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="187" column="24" lean-forward="true" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageInfoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/middleware/race/mom/fstjson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/ConsumeStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/ConsumeResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/AccumulateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/DefaultProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/DefaultConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/DefaultProducer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/middleware/race/mom/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/middleware/race/mom/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/ReSendHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageInfoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-mom.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/broker/function/MessageStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/util/TopicAndFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-mom.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/middleware/race/mom/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

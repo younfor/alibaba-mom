@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://H:/alibaba-mom/middleware-mom.iml" filepath="H:/alibaba-mom/middleware-mom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware-momtest.iml" filepath="$PROJECT_DIR$/middleware-momtest.iml" />
+    </modules>
+  </component>
+</project>
